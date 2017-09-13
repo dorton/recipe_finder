@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.recipepuppy.com/api/?q=onion
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 12 Sep 2017 22:57:30 GMT
+      Server:
+      - Apache/2.2.9 (Ubuntu) PHP/5.2.6-2ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.9
+        OpenSSL/0.9.8g mod_wsgi/4.5.7 Python/2.6
+      X-Powered-By:
+      - PHP/5.2.6-2ubuntu4.6
+      Set-Cookie:
+      - kohanasession=3cf6cedeeff85d5a7a4fa11b2c71adc0; expires=Wed, 13 Sep 2017 00:57:30
+        GMT; path=/
+      - kohanasession=3cf6cedeeff85d5a7a4fa11b2c71adc0; expires=Wed, 13-Sep-2017 00:57:30
+        GMT; path=/
+      - kohanasession_data=c2Vzc2lvbl9pZHxzOjMyOiIzY2Y2Y2VkZWVmZjg1ZDVhN2E0ZmExMWIyYzcxYWRjMCI7dG90YWxfaGl0c3xpOjE7X2tmX2ZsYXNoX3xhOjA6e311c2VyX2FnZW50fHM6NDoiUnVieSI7aXBfYWRkcmVzc3xzOjEzOiI5OS4xODcuMTMzLjYzIjtsYXN0X2FjdGl2aXR5fGk6MTUwNTI1NzA1MDs%3D;
+        expires=Wed, 13-Sep-2017 00:57:30 GMT; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '918'
+      Content-Type:
+      - text/javascript
+    body:
+      encoding: ASCII-8BIT
+      string: '{"title":"Recipe Puppy","version":0.1,"href":"http:\/\/www.recipepuppy.com\/","results":[{"title":"Indian
+        Restaurant Style Onion Bhaji - Deep Fried Onion Fritters","href":"http:\/\/www.recipezaar.com\/Indian-Restaurant-Style-Onion-Bhaji-Deep-Fried-Onion-Fritters-288345","ingredients":"baking
+        powder, chickpea flour, chili powder, coriander, cumin, onion seeds, onions,
+        flour, salt, turmeric, vegetable oil, water","thumbnail":"http:\/\/img.recipepuppy.com\/44475.jpg"},{"title":"Black
+        and Tan Onion Rings","href":"http:\/\/www.recipezaar.com\/Black-and-Tan-Onion-Rings-4199","ingredients":"flour,
+        cayenne, chicken broth, peppers, paprika, salt, onions, vegetable oil","thumbnail":""},{"title":"Onion
+        Saute Recipe","href":"http:\/\/www.grouprecipes.com\/30759\/onion-saute.html","ingredients":"green
+        onion, garlic, butter, olive oil, sugar, onions","thumbnail":""},{"title":"Bubba
+        Don''t Eat This Onion Soup With Melted Mozzarella","href":"http:\/\/www.recipezaar.com\/Bubba-Dont-Eat-This-Onion-Soup-With-Melted-Mozzarella-228285","ingredients":"buns,
+        butter, beef broth, black pepper, garlic, leek, mozzarella cheese, salt, hot
+        sauce, vidalia onions, water","thumbnail":"http:\/\/img.recipepuppy.com\/199682.jpg"},{"title":"Sour
+        Cream N Onion Burgers Recipe","href":"http:\/\/www.grouprecipes.com\/80743\/sour-cream-n-onion-burgers.html","ingredients":"bread
+        crumbs, sour cream, onion soup mix, ground beef, salt, onions, chives, parmesan
+        cheese, worcestershire sauce","thumbnail":""},{"title":"Cheesy Onion Potatoes","href":"http:\/\/www.recipezaar.com\/Cheesy-Onion-Potatoes-299756","ingredients":"butter,
+        cheddar cheese, onion soup mix, black pepper, garlic powder, green onion,
+        potato","thumbnail":""},{"title":"Crispy Onion  Rings","href":"http:\/\/www.recipezaar.com\/Crispy-Onion-Rings-313854","ingredients":"beer,
+        cornmeal, flour, salt, shortening, yellow onions","thumbnail":""},{"title":"Crock
+        Pot Onion Confit","href":"http:\/\/www.recipezaar.com\/Crock-Pot-Onion-Confit-93311","ingredients":"bay
+        leaves, brown sugar, demi glace, thyme, olive oil, onions, salt, sherry, butter","thumbnail":"http:\/\/img.recipepuppy.com\/339621.jpg"},{"title":"Onion
+        Bread II","href":"http:\/\/allrecipes.com\/Recipe\/Onion-Bread-II\/Detail.aspx","ingredients":"bread
+        flour, butter, oregano, onions, onions, salt, shortening, water, sugar","thumbnail":"http:\/\/img.recipepuppy.com\/173.jpg"},{"title":"Hot
+        Onion Dip","href":"http:\/\/allrecipes.com\/Recipe\/Hot-Onion-Dip\/Detail.aspx","ingredients":"mayonnaise,
+        onions, parmesan cheese","thumbnail":"http:\/\/img.recipepuppy.com\/12311.jpg"}]}'
+    http_version: 
+  recorded_at: Tue, 12 Sep 2017 22:58:44 GMT
+recorded_with: VCR 3.0.3
