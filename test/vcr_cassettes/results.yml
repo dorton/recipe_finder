@@ -19,19 +19,19 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 12 Sep 2017 22:57:30 GMT
+      - Wed, 13 Sep 2017 22:45:37 GMT
       Server:
       - Apache/2.2.9 (Ubuntu) PHP/5.2.6-2ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.9
         OpenSSL/0.9.8g mod_wsgi/4.5.7 Python/2.6
       X-Powered-By:
       - PHP/5.2.6-2ubuntu4.6
       Set-Cookie:
-      - kohanasession=3cf6cedeeff85d5a7a4fa11b2c71adc0; expires=Wed, 13 Sep 2017 00:57:30
+      - kohanasession=c97bcf6026ad809281cacdee3ef2d0a9; expires=Thu, 14 Sep 2017 00:45:37
         GMT; path=/
-      - kohanasession=3cf6cedeeff85d5a7a4fa11b2c71adc0; expires=Wed, 13-Sep-2017 00:57:30
+      - kohanasession=c97bcf6026ad809281cacdee3ef2d0a9; expires=Thu, 14-Sep-2017 00:45:37
         GMT; path=/
-      - kohanasession_data=c2Vzc2lvbl9pZHxzOjMyOiIzY2Y2Y2VkZWVmZjg1ZDVhN2E0ZmExMWIyYzcxYWRjMCI7dG90YWxfaGl0c3xpOjE7X2tmX2ZsYXNoX3xhOjA6e311c2VyX2FnZW50fHM6NDoiUnVieSI7aXBfYWRkcmVzc3xzOjEzOiI5OS4xODcuMTMzLjYzIjtsYXN0X2FjdGl2aXR5fGk6MTUwNTI1NzA1MDs%3D;
-        expires=Wed, 13-Sep-2017 00:57:30 GMT; path=/
+      - kohanasession_data=c2Vzc2lvbl9pZHxzOjMyOiJjOTdiY2Y2MDI2YWQ4MDkyODFjYWNkZWUzZWYyZDBhOSI7dG90YWxfaGl0c3xpOjE7X2tmX2ZsYXNoX3xhOjA6e311c2VyX2FnZW50fHM6NDoiUnVieSI7aXBfYWRkcmVzc3xzOjEzOiI5OS4xODcuMTMzLjYzIjtsYXN0X2FjdGl2aXR5fGk6MTUwNTM0MjczNzs%3D;
+        expires=Thu, 14-Sep-2017 00:45:37 GMT; path=/
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
@@ -70,5 +70,173 @@ http_interactions:
         Onion Dip","href":"http:\/\/allrecipes.com\/Recipe\/Hot-Onion-Dip\/Detail.aspx","ingredients":"mayonnaise,
         onions, parmesan cheese","thumbnail":"http:\/\/img.recipepuppy.com\/12311.jpg"}]}'
     http_version: 
-  recorded_at: Tue, 12 Sep 2017 22:58:44 GMT
+  recorded_at: Wed, 13 Sep 2017 22:46:51 GMT
+- request:
+    method: get
+    uri: http://www.recipepuppy.com/api/?q=onion,%20potato
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 13 Sep 2017 22:45:37 GMT
+      Server:
+      - Apache/2.2.9 (Ubuntu) PHP/5.2.6-2ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.9
+        OpenSSL/0.9.8g mod_wsgi/4.5.7 Python/2.6
+      X-Powered-By:
+      - PHP/5.2.6-2ubuntu4.6
+      Set-Cookie:
+      - kohanasession=54385abb7a26f22946ba276d186b65ed; expires=Thu, 14 Sep 2017 00:45:37
+        GMT; path=/
+      - kohanasession=54385abb7a26f22946ba276d186b65ed; expires=Thu, 14-Sep-2017 00:45:37
+        GMT; path=/
+      - kohanasession_data=c2Vzc2lvbl9pZHxzOjMyOiI1NDM4NWFiYjdhMjZmMjI5NDZiYTI3NmQxODZiNjVlZCI7dG90YWxfaGl0c3xpOjE7X2tmX2ZsYXNoX3xhOjA6e311c2VyX2FnZW50fHM6NDoiUnVieSI7aXBfYWRkcmVzc3xzOjEzOiI5OS4xODcuMTMzLjYzIjtsYXN0X2FjdGl2aXR5fGk6MTUwNTM0MjczNzs%3D;
+        expires=Thu, 14-Sep-2017 00:45:37 GMT; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '842'
+      Content-Type:
+      - text/javascript
+    body:
+      encoding: ASCII-8BIT
+      string: '{"title":"Recipe Puppy","version":0.1,"href":"http:\/\/www.recipepuppy.com\/","results":[{"title":"Caramelized
+        Onion-Potato Pancakes Recipe","href":"http:\/\/www.recipezaar.com\/Caramelized-Onion-Potato-Pancakes-Recipe-181193","ingredients":"potato,
+        kernel corn, egg whites, garlic, black pepper, oregano, rosemary, nonstick
+        cooking spray, red pepper, red onions, salt","thumbnail":""},{"title":"Fried
+        Onion Potato Dish Recipe","href":"http:\/\/www.grouprecipes.com\/44550\/fried-onion-potato-dish.html","ingredients":"potato,
+        cream cheese, onion rings, garlic salt, hash browns, monterey jack cheese,
+        salt, sour cream, butter, water","thumbnail":""},{"title":"Green Onion Potato
+        Rolls","href":"http:\/\/allrecipes.com\/Recipe\/Green-Onion-Potato-Rolls\/Detail.aspx","ingredients":"bread
+        flour, butter, eggs, flour, green onion, potato flakes, milk, salt, sugar","thumbnail":""},{"title":"Onion
+        Potato Rolls","href":"http:\/\/allrecipes.com\/Recipe\/Onion-Potato-Rolls\/Detail.aspx","ingredients":"brown
+        sugar, butter, eggs, eggs, onion soup mix, flour, milk, potato flakes, salt,
+        water, flour","thumbnail":""},{"title":"Onion Potato Pie","href":"http:\/\/allrecipes.com\/Recipe\/Onion-Potato-Pie\/Detail.aspx","ingredients":"butter,
+        cheddar cheese, eggs, milk, salt, onions, red pepper flakes","thumbnail":"http:\/\/img.recipepuppy.com\/9051.jpg"},{"title":"Bacon
+        and Onion Potato Casserole","href":"http:\/\/www.recipezaar.com\/Bacon-and-Onion-Potato-Casserole-143557","ingredients":"bacon,
+        butter, heavy cream, onions, parmesan cheese, parmesan cheese, black pepper,
+        salt, potato","thumbnail":""},{"title":"Blue Cheese Mushroom and Onion Potato
+        Gratin","href":"http:\/\/www.recipezaar.com\/Blue-Cheese-Mushroom-and-Onion-Potato-Gratin-148983","ingredients":"blue
+        cheese, butter, mozzarella cheese, vegetable oil, onions, potato, salt, heavy
+        cream, mushroom","thumbnail":"http:\/\/img.recipepuppy.com\/177658.jpg"},{"title":"Three
+        Onion Potato Casserole Recipe","href":"http:\/\/www.grouprecipes.com\/16780\/three-onion-potato-casserole.html","ingredients":"green
+        onion, onions, celery, hash brown, sour cream, jalapeno","thumbnail":""},{"title":"French
+        Onion Potato Bake","href":"http:\/\/www.bestrecipes.com.au\/recipe\/French-Onion-Potato-Bake-L3370.html","ingredients":"cream,
+        french onion soup, potato","thumbnail":""},{"title":"Grilled Onion, Potato
+        and Raclette Pizza","href":"http:\/\/www.recipezaar.com\/Grilled-Onion-Potato-and-Raclette-Pizza-125467","ingredients":"black
+        pepper, oregano, garlic, lemon, olive oil, onions, pizza crust, potato, cheese,
+        salt","thumbnail":""}]}'
+    http_version: 
+  recorded_at: Wed, 13 Sep 2017 22:46:51 GMT
+- request:
+    method: get
+    uri: http://www.recipepuppy.com/api/?q=eggs%20bacon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Date:
+      - Wed, 13 Sep 2017 22:48:09 GMT
+      Server:
+      - Apache/2.2.9 (Ubuntu) PHP/5.2.6-2ubuntu4.6 with Suhosin-Patch mod_ssl/2.2.9
+        OpenSSL/0.9.8g mod_wsgi/4.5.7 Python/2.6
+      X-Powered-By:
+      - PHP/5.2.6-2ubuntu4.6
+      Set-Cookie:
+      - kohanasession=07f3e7a50a91a71750c57799ce5f36be; expires=Thu, 14 Sep 2017 00:48:09
+        GMT; path=/
+      - kohanasession=07f3e7a50a91a71750c57799ce5f36be; expires=Thu, 14-Sep-2017 00:48:09
+        GMT; path=/
+      - kohanasession_data=c2Vzc2lvbl9pZHxzOjMyOiIwN2YzZTdhNTBhOTFhNzE3NTBjNTc3OTljZTVmMzZiZSI7dG90YWxfaGl0c3xpOjE7X2tmX2ZsYXNoX3xhOjA6e311c2VyX2FnZW50fHM6NDoiUnVieSI7aXBfYWRkcmVzc3xzOjEzOiI5OS4xODcuMTMzLjYzIjtsYXN0X2FjdGl2aXR5fGk6MTUwNTM0Mjg4OTs%3D;
+        expires=Thu, 14-Sep-2017 00:48:09 GMT; path=/
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '1241'
+      Connection:
+      - close
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html
+        xmlns=\"http://www.w3.org/1999/xhtml\">\n  <head>\n    <title>404 File Not
+        Found</title>\n    <link href=\"/cssjs/style.css?6\" type=\"text/css\" media=\"screen\"
+        rel=\"stylesheet\">\n    <link rel=\"shortcut icon\" href=\"/favicon.ico\">\n
+        \   <link rel=\"search\" type=\"application/opensearchdescription+xml\" title=\"Recipe
+        Puppy: Search by Ingredients\" href=\"http://www.recipepuppy.com/rpopen.xml\">\n
+        \   <link rel=\"search\" type=\"application/opensearchdescription+xml\" title=\"Recipe
+        Puppy: Search by Keyword\" href=\"http://www.recipepuppy.com/rpkeyword.xml\">\n
+        \ </head>\n  <body>\n    <div class=\"header\">\n      <h1><a href=\"/\"><img
+        src=\"/img/logonew.png\" title=\"Search Recipes by Ingredients and Keywords\"
+        alt=\"Search Recipes by Ingredients and Keywords\" /></a></h1>\n    </div>\n
+        \   <div class=\"nav\"> \n    </div>\n    <div class=\"main\">\n      <h2>404
+        File Not Found</h2> \n    </div>\n    <div style=\"clear:both\"></div>\n    <div
+        class=\"foot\">\n      <div class=\"column\">\n        <h4>About</h4>\n        <a
+        href=\"http://blog.recipepuppy.com/\">Blog</a><br>\n        <a href=\"/about/us\">About
+        Us</a><br>\n        <a href=\"/about/contact\">Contact Us</a><br>\n        <a
+        href=\"/top/search\">Top Searches</a><br>\n        <a href=\"/privacy\">Privacy
+        Policy</a><br>\n      </div>\n      <div class=\"column\">\n        <h4>On
+        the Web</h4>\n        <a href=\"http://www.facebook.com/pages/Recipe-Puppy-Search-for-recipes-by-ingredients/54865354493#/pages/Recipe-Puppy-Search-for-recipes-by-ingredients/54865354493\">Facebook</a><br>\n
+        \       <a href=\"http://twitter.com/recipepuppy/\">Twitter</a><br>\n        <a
+        href=\"http://twitter.com/recipebot/\">Twitter Recipe Search Bot</a><br>\n
+        \     </div>\n      <div class=\"column\">\n        <h4>Tell your Friends</h4>\n<!--
+        AddThis Button BEGIN -->\n<script type=\"text/javascript\">\nvar addthis_share
+        = \n{ \n    title: 'Recipe Puppy, an ingredient based recipe search engine',\n
+        \   url: 'http://www.recipepuppy.com',\n    templates: {\n                   twitter:
+        'check out {{url}}, an ingredient based recipe search engine (@recipepuppy
+        and @recipebot)'\n               }\n}\n</script>\n<div class=\"addthis_toolbox\">\n<a
+        class=\"addthis_button_email\" title=\"Share Recipe Puppy via Email\">&nbsp;Email</a><br>\n<a
+        class=\"addthis_button_twitter\" title=\"Share Recipe Puppy via Twitter\">&nbsp;Twitter</a><br>\n<a
+        class=\"addthis_button_facebook\" title=\"Share Recipe Puppy via Facebook\">&nbsp;Facebook</a><br>\n<a
+        class=\"addthis_button_myspace\" title=\"Share Recipe Puppy via MySpace\">&nbsp;MySpace</a><br>\n<a
+        href=\"http://www.addthis.com/bookmark.php?v=250\" class=\"addthis_button_expanded\">&nbsp;More</a><br>\n</div>\n<script
+        type=\"text/javascript\" src=\"http://s7.addthis.com/js/250/addthis_widget.js?pub=kbrower\"></script>\n<!--
+        AddThis Button END -->\n\n\n      </div>\n      <div class=\"column\">\n        <h4>Tools</h4>\n
+        \               <a href=\"/widgets/\">Add to your Website</a><br>\n        <a
+        href=\"http://www.webmynd.com/html/recipepuppy.html\">Search alongside Google</a><br>\n
+        \       <a href=\"http://contenture.com/?s=34391\">Support this Site and Remove
+        Ads</a><br>\n        <a href=\"/iphone/\">Recipe Puppy for iPhone</a><br>\n
+        \     </div>\n      <div class=\"column\">\n        &copy;2017 RecipePuppy.com\n
+        \     </div>\n      <div style=\"clear:both\"></div>\n    </div>\n    <div
+        style=\"clear:both\"></div>\n \n\n    <script src=\"http://static.getclicky.com/73611.js\"
+        type=\"text/javascript\"></script>\n    <noscript><p><img alt=\"Clicky\" width=\"1\"
+        height=\"1\" src=\"http://static.getclicky.com/73611-db7.gif\" /></p></noscript>\n\n
+        \ </body>\n</html>\n"
+    http_version: 
+  recorded_at: Wed, 13 Sep 2017 22:49:23 GMT
 recorded_with: VCR 3.0.3
