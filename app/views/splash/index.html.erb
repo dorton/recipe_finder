@@ -1,0 +1,40 @@
+
+<div class="container">
+  <form class="form-inline" id="recipe-search">
+    <div class="col-lg-12">
+      <div class="input-group">
+        <%= form_tag(search_path, id: "search-form") do %>
+          <%= text_field_tag :search, params[:search], placeholder: "Search for...", class: 'form-control' %>
+          <span class="input-group-btn">
+             <%= submit_tag "Search", class: 'btn btn-secondary', name: nil %>
+          </span>
+        <% end %>
+      </div>
+     </div>
+   </form>
+
+  <% if @ingredients %>
+    <%= pluralize(@results.count, 'Result') %> found for <%= params[:search] %>
+  <% end %>
+
+  <div class="container">
+    <table class="table table-striped">
+      <tbody>
+        <% if @ingredients %>
+          <% @results.each do |result| %>
+            <tr>
+              <% unless result['thumbnail'].blank? %>
+              <td><%= image_tag result['thumbnail'] %></td>
+              <% else %>
+              <td><%= image_tag 'placeholder.png', class: 'placeholder' %></td>
+              <% end %>
+              <td><%= link_to result['title'], result['href'] %></td>
+            </tr>
+          <% end %>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
