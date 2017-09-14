@@ -13,14 +13,14 @@
      </div>
    </form>
 
-  <% if @ingredients %>
+  <% unless @ingredients.blank? %>
     <%= pluralize(@results.count, 'Result') %> found for <%= params[:search] %>
   <% end %>
 
   <div class="container">
     <table class="table table-striped">
       <tbody>
-        <% if @ingredients %>
+        <% unless @ingredients.blank? %>
           <% @results.each do |result| %>
             <tr>
               <% unless result['thumbnail'].blank? %>
