@@ -1,24 +1,9 @@
-# README
+# Recipe Finder
+- Have an ingredient and need a recipe? Not a problem! Just enter the ingredient(s) into the handy search bar and away we go!
+- Uses the [RecipePuppy](http://www.recipepuppy.com/) API.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting Started
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Clone
+- Bundle
+- Off you go!
