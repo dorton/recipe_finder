@@ -11,7 +11,7 @@ class FinderTest < ActiveSupport::TestCase
   test "imports the right amount of data" do
     VCR.use_cassette("results", :record => :new_episodes) do
       results = Finder.new.search("onion")
-      assert_equal 10, results.count
+      assert_operator 20, :>=, results.count
     end
   end
 
@@ -26,7 +26,7 @@ class FinderTest < ActiveSupport::TestCase
   test "finder with comma in search search" do
     VCR.use_cassette("results", :record => :new_episodes) do
       results = Finder.new.search("onion, potato")
-      assert_equal 10, results.count
+      assert_operator 20, :>=, results.count
     end
   end
 
